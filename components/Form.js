@@ -1,9 +1,9 @@
 import React from 'react'
-import { Image, Pressable, StyleSheet, Text, TextInput, View } from 'react-native'
+import { Dimensions, Image, Pressable, StyleSheet, Text, TextInput, View } from 'react-native'
 
 export default function Form() {
     return (
-        <View>
+        <View style={{flex:1 }}>
             <Text style={styles.textConatiner}>Learn Graphic and UI/UX designing in Hindi
 for free with live projects.</Text>
             <View style={{ marginTop: 20 }}>

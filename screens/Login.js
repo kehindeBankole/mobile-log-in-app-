@@ -13,17 +13,18 @@ export default function Login() {
                 <Form />
             </View>
         </View>
-        </ScrollView>
+         </ScrollView> 
     )
 }
 
 const styles = StyleSheet.create({
     loginContainer: {
-        paddingTop: 40,
+        paddingVertical: 40,
         paddingHorizontal: 40,
-        height: Dimensions.get('window').height,
+        height: Dimensions.get('screen').height,
         width:Dimensions.get('window').width,
         backgroundColor: "#81248A",
+        flex:1
     },
     imageContainer: {
         flex: 1,
