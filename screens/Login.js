@@ -21,9 +21,9 @@ const styles = StyleSheet.create({
     loginContainer: {
         paddingTop: 40,
         paddingHorizontal: 40,
-        // height: Dimensions.get('window').height,
+        height: Dimensions.get('window').height,
+        width:Dimensions.get('window').width,
         backgroundColor: "#81248A",
-        height:'100%'
     },
     imageContainer: {
         flex: 1,
